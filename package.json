@@ -1,0 +1,23 @@
+{
+  "name": "une-imgs",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildcss":"npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biganq/une-imgs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/biganq/une-imgs/issues"
+  },
+  "homepage": "https://github.com/biganq/une-imgs#readme",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
